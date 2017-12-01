@@ -16,139 +16,201 @@
 </head>
 
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="navigation__button">
+            <span class="navigation__icon"></span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <div class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#section-sobre" class="navigation__link">Sobre Mim</a>
+                </li>
+                <li class="navigation__item">
+                    <li class="navigation__item">
+                        <a href="#section-conhecimentos" class="navigation__link">Conhecimentos</a>
+                    </li>
+                </li>
+                <li class="navigation__item">
+                    <li class="navigation__item">
+                        <a href="#section-curriculum" class="navigation__link">Curriculum</a>
+                    </li>
+                </li>
+                <li class="navigation__item">
+                    <li class="navigation__item">
+                        <a href="#section-portfolio" class="navigation__link">Portfolio</a>
+                    </li>
+                </li>
+                <li class="navigation__item">
+                    <li class="navigation__item">
+                        <a href="#footer" class="navigation__link">Contactar</a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 
     <header class="header">
         <div class="heading-primary--top">Tiago Correia</div>
         <div class="heading-primary--bottom margin-bottom-medium">Web Developer</div>
         <a href="#section-sobre" class="btn btn--white btn--round btn-down">
-            <i class="ion-android-arrow-down btn-down__icon"></i>
+            <i class="fa fa-angle-double-down btn-down__icon" aria-hidden="true"></i>
         </a>
     </header>
-
-    <section class="section-sobre" id="section-sobre">
-        <div class="wrap">
-            <h1 class="heading-secondary margin-bottom-small">Sobre Mim</h1>
-            <div class="section-sobre__image-container">
-                <img src="/img/profile.jpg" alt="tiago correia" class="section-sobre__image-container__img">
-            </div>
-            <p class="paragrah text-center">Olá eu sou o Tiago um Web Developer de Oliveira de Azeméis com interesse em desenvolver novos projectos
-                e uma com uma enorme vontade de adquirir sempre novos conhecimentos, a minha paixão pelo desenvolvimento web começou
-                cedo e ao longo deste percurso estudei na Universidade Superior Aveiro Norte onde realizei um CET em Técnico
-                de gestão de programação de sistemas informáticos.</p>
-        </div>
-    </section>
-
-    <section class="section-conhecimentos">
-        <h1 class="heading-secondary margin-bottom-small">Conhecimentos</h1>
-        <div class="conhecimentos-list">
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-html5-plain-wordmark conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-css3-plain-wordmark conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-sass-original conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-javascript-plain conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-jquery-plain-wordmark conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-nodejs-plain conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-express-original conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-mongodb-plain-wordmark conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-mysql-plain-wordmark conhecimentos-list__icon"></i>
-            </a>
-            <a class="conhecimentos-list__link" href="#">
-                <i class="devicon-bootstrap-plain conhecimentos-list__icon"></i>
-            </a>
-        </div>
-    </section>
-
-    <section class="section-curriculum text-center">
-        <h1 class="heading-secondary margin-bottom-small">Curriculum</h1>
-        <a href="#" class="btn btn--green">Download Pdf
-            <i class="ion-ios-download-outline"></i>
-        </a>
-    </section>
-
-    <section class="section-portfolio">
-        <h1 class="heading-secondary margin-bottom-small">Portfólio</h1>
-        <div class="list wrap">
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/maps.jpg" alt="projecto combustiveis" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/projects.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/moveis.jpg" alt="projecto moveis" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-            <a class="list__item" href="#">
-                <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
-                <div class="list__item__overlay">
-                    <i class="ion-eye list__item__overlay__icon"></i>
-                </div>
-            </a>
-        </div>
-    </section>
-    <svg class="page-separator" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102"
-        preserveAspectRatio="none">
-        <path d="M0 0 L50 100 L100 0 Z" />
-    </svg>
     <main>
+        <section class="section-sobre" id="section-sobre">
+            <div class="wrap">
+                <h1 class="heading-secondary margin-bottom-small">Sobre Mim</h1>
+                <div class="section-sobre__image-container">
+                    <img src="/img/profile.jpg" alt="tiago correia" class="section-sobre__image-container__img">
+                </div>
+                <p class="paragrah text-center">Olá eu sou o Tiago um Web Developer de Oliveira de Azeméis com interesse em desenvolver novos projectos e
+                    uma com uma enorme vontade de adquirir sempre novos conhecimentos, a minha paixão pelo desenvolvimento
+                    web começou cedo e ao longo deste percurso estudei na Universidade Superior Aveiro Norte onde realizei
+                    um CET em Técnico de gestão de programação de sistemas informáticos.</p>
+            </div>
+        </section>
+
+        <section class="section-conhecimentos" id="section-conhecimentos">
+            <h1 class="heading-secondary margin-bottom-small">Conhecimentos</h1>
+            <div class="conhecimentos-list">
+                <a class="conhecimentos-list__link" target="_blank" href="https://developer.mozilla.org/pt-PT/docs/Web/HTML/HTML5">
+                    <i class="devicon-html5-plain-wordmark conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://developer.mozilla.org/pt-PT/docs/Web/CSS/CSS3">
+                    <i class="devicon-css3-plain-wordmark conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="http://sass-lang.com/">
+                    <i class="devicon-sass-original conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://developer.mozilla.org/pt-PT/docs/Web/JavaScript">
+                    <i class="devicon-javascript-plain conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://jquery.com/">
+                    <i class="devicon-jquery-plain-wordmark conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://nodejs.org/en/">
+                    <i class="devicon-nodejs-plain conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://expressjs.com">
+                    <i class="devicon-express-original conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://www.mongodb.com">
+                    <i class="devicon-mongodb-plain-wordmark conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://www.mysql.com">
+                    <i class="devicon-mysql-plain-wordmark conhecimentos-list__icon"></i>
+                </a>
+                <a class="conhecimentos-list__link" target="_blank" href="https://getbootstrap.com/">
+                    <i class="devicon-bootstrap-plain conhecimentos-list__icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="section-curriculum text-center" id="section-curriculum">
+            <h1 class="heading-secondary margin-bottom-small">Curriculum</h1>
+            <a href="#" class="btn btn--green">Download Pdf
+                <i class="ion-ios-download-outline"></i>
+            </a>
+        </section>
+
+        <section class="section-portfolio" id="section-portfolio">
+            <h1 class="heading-secondary margin-bottom-small">Portfólio</h1>
+            <div class="list wrap">
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/maps.jpg" alt="projecto combustiveis" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/projects.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/moveis.jpg" alt="projecto moveis" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+                <a class="list__item" href="#">
+                    <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
+                    <div class="list__item__overlay">
+                        <i class="ion-eye list__item__overlay__icon"></i>
+                    </div>
+                </a>
+            </div>
+        </section>
     </main>
-    <footer class="footer text-center">
-        <p>footer</p>
+    <footer class="footer text-center" id="footer">
+        <svg class="page-separator margin-bottom-small" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102"
+            preserveAspectRatio="none">
+            <path d="M0 0 L50 100 L100 0 Z" />
+        </svg>
+        <p class="paragraph footer__paragraph">
+            <i class="fa fa-code footer__icon"></i>
+        </p>
+        <p class="paragraph footer__paragraph">&copy; Tiago Correia - 2017</p>
+        <a href="#" class="footer__email">tiagoalmeida.correia@gmail.com</a>
+        <ul class="footer__socialmedia">
+            <li class="footer__socialmedia__item">
+                <a href="#" class="footer__socialmedia__link" target="_blank">
+                    <i class="fa fa-linkedin footer__socialmedia__icon"></i>
+                </a>
+            </li>
+            <li class="footer__socialmedia__item">
+                <a href="#" class="footer__socialmedia__link" target="_blank">
+                    <i class="fa fa-github footer__socialmedia__icon"></i>
+                </a>
+            </li>
+            <li class="footer__socialmedia__item">
+                <a href="#" class="footer__socialmedia__link" target="_blank">
+                    <i class="fa fa-free-code-camp footer__socialmedia__icon"></i>
+                </a>
+            </li>
+            <li class="footer__socialmedia__item">
+                <a href="#" class="footer__socialmedia__link" target="_blank">
+                    <i class="fa fa-codepen footer__socialmedia__icon"></i>
+                </a>
+            </li>
+        </ul>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

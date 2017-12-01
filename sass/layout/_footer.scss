@@ -1,3 +1,59 @@
 .footer{
     background-color: $color-green-dark-1;
+    color: $color-white;
+
+    &__icon{
+        font-size: 3rem;
+        display: block;
+        margin-bottom: 2rem;
+        margin-top:1rem;
+    }
+
+    &__paragraph{
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    &__email{
+        text-decoration: none;
+        color:$color-white;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 700; 
+        display: block;
+        margin-top:1rem;
+    }
+
+    &__socialmedia{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding:2rem 0;
+
+        &__item{
+            margin: 0 1rem;
+        }
+    
+        &__link:link,
+        &__link:visited{
+            width: 4.5rem;
+            height: 4.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            @include buttonColor ($color-white);
+            border-radius: 50%;
+        }
+
+        &__link:hover{ 
+            background-color: $color-white;
+            color:$color-green-dark-1;
+        }
+    
+        &__icon{
+            font-size: 2rem;  
+        }
+    }
 }

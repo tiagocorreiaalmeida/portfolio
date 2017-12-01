@@ -14,8 +14,9 @@ body{
             color:$color-light;
         }
         &--bottom{
-            font-size: 3rem;
-            color:$color-light; 
+            font-size: 4rem;
+            font-weight: 300;
+            color:$color-light;  
             max-width: 80rem;
         }
     }
@@ -29,4 +30,4 @@ body{
 .paragrah{
     font-size: $default-font-size;
     margin-bottom:3rem;
-}
+} 

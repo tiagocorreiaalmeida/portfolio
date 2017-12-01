@@ -1,0 +1,34 @@
+.section-sobre{
+    padding:4rem 0;
+    &__image-container{
+        width:20rem;
+        margin: 0 auto 2rem auto;
+
+        &__img{
+            width:100%;
+            border-radius: 50%;
+        }
+    }
+    background-color: $color-white;
+}
+
+.section-conhecimentos{
+    padding:4rem 0;  
+    background-color: $color-light;
+}
+
+.section-curriculum{
+    padding:5rem 0;
+    background-color: $color-white;
+}
+
+.section-portfolio{
+    padding: 4rem 0;
+    background-color: $color-light;
+    position: relative;
+    
+}
+
+.section-contactos{
+
+}

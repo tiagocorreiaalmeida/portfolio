@@ -1,0 +1,17 @@
+@mixin flexAbsCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin posAbsCenter{
+    position: absolute;
+    top:50%; 
+    left:50%;
+    transform:translate(-50%,-50%);
+} 
+
+@mixin buttonColor ($color){
+    color:$color;
+    border:2px solid $color;
+}

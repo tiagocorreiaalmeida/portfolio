@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: $default-font-size; 
+    color:$default-color; 
+}
+
+.heading{
+    &-primary{
+        &--top{
+            font-size: 4.5rem;
+            font-weight: 700;
+            color:$color-light;
+        }
+        &--bottom{
+            font-size: 3rem;
+            color:$color-light; 
+            max-width: 80rem;
+        }
+    }
+
+    &-secondary{
+        text-align: center;
+        font-size: 3.2rem;
+    }
+}
+
+.paragrah{
+    font-size: $default-font-size;
+    margin-bottom:3rem;
+}

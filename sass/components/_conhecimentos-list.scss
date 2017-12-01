@@ -1,0 +1,21 @@
+.conhecimentos-list{
+    display: flex;
+    flex-wrap: wrap;
+    &__link{
+        color:inherit;
+        flex: 0 0 18%;
+        text-decoration: none;
+        padding: 1rem;
+        margin: 4rem 1%;
+        text-align: center;
+    }
+
+    &__link:hover{
+        color: $color-primary-1;
+    }
+
+    &__icon{
+        display: inline-block;
+        font-size: 13rem;
+    }
+}

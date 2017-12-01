@@ -1,0 +1,8 @@
+.page-separator{
+    pointer-events: none;
+    & path{
+        fill: ($color-light);
+        stroke: ($color-light);
+        stroke-width: 3;  
+    }
+}

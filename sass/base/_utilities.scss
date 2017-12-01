@@ -3,7 +3,14 @@
     margin: 0 auto;
 }
 
+.wrap-medium{
+    max-width:990px;
+    margin: 0 auto;
+}
+
+//TEXT
 .text-center{text-align: center;}
+.text-bold{font-weight: 700;}
 
 //MARGINS
 .margin-bottom-big{margin-bottom:6rem;}

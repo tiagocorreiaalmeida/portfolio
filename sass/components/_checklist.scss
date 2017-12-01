@@ -1,0 +1,14 @@
+.check-list{
+    list-style: none; 
+    padding-left: 1.5rem; 
+
+    &__item{
+   
+        &::before{
+            font-family: "Ionicons";
+            content:"\f121";
+            padding-right: 1rem;
+        }
+    }
+}
+

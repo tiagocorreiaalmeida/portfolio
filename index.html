@@ -28,24 +28,16 @@
                     <a href="#section-sobre" class="navigation__link">Sobre Mim</a>
                 </li>
                 <li class="navigation__item">
-                    <li class="navigation__item">
-                        <a href="#section-conhecimentos" class="navigation__link">Conhecimentos</a>
-                    </li>
+                    <a href="#section-conhecimentos" class="navigation__link">Conhecimentos</a>
                 </li>
                 <li class="navigation__item">
-                    <li class="navigation__item">
-                        <a href="#section-curriculum" class="navigation__link">Curriculum</a>
-                    </li>
+                    <a href="#section-curriculum" class="navigation__link">Curriculum</a>
                 </li>
                 <li class="navigation__item">
-                    <li class="navigation__item">
-                        <a href="#section-portfolio" class="navigation__link">Portfolio</a>
-                    </li>
+                    <a href="#section-portfolio" class="navigation__link">Portfolio</a>
                 </li>
                 <li class="navigation__item">
-                    <li class="navigation__item">
-                        <a href="#footer" class="navigation__link">Contactar</a>
-                    </li>
+                    <a href="#footer" class="navigation__link">Contactar</a>
                 </li>
             </ul>
         </div>
@@ -53,8 +45,8 @@
 
 
     <header class="header">
-        <div class="heading-primary--top">Tiago Correia</div>
-        <div class="heading-primary--bottom margin-bottom-medium">Web Developer</div>
+        <h1 class="heading-primary--top">Tiago Correia</h1>
+        <h2 class="heading-primary--bottom margin-bottom-medium">Web Developer</h2>
         <a href="#section-sobre" class="btn btn--white btn--round btn-down">
             <i class="fa fa-angle-double-down btn-down__icon" aria-hidden="true"></i>
         </a>
@@ -62,7 +54,7 @@
     <main>
         <section class="section-sobre" id="section-sobre">
             <div class="wrap">
-                <h1 class="heading-secondary margin-bottom-small">Sobre Mim</h1>
+                <h2 class="heading-secondary margin-bottom-small">Sobre Mim</h2>
                 <div class="section-sobre__image-container">
                     <img src="/img/profile.jpg" alt="tiago correia" class="section-sobre__image-container__img">
                 </div>
@@ -74,7 +66,7 @@
         </section>
 
         <section class="section-conhecimentos" id="section-conhecimentos">
-            <h1 class="heading-secondary margin-bottom-small">Conhecimentos</h1>
+            <h2 class="heading-secondary margin-bottom-small">Conhecimentos</h2>
             <div class="conhecimentos-list">
                 <a class="conhecimentos-list__link" target="_blank" href="https://developer.mozilla.org/pt-PT/docs/Web/HTML/HTML5">
                     <i class="devicon-html5-plain-wordmark conhecimentos-list__icon"></i>
@@ -91,7 +83,7 @@
                 <a class="conhecimentos-list__link" target="_blank" href="https://jquery.com/">
                     <i class="devicon-jquery-plain-wordmark conhecimentos-list__icon"></i>
                 </a>
-                <a class="conhecimentos-list__link" target="_blank" href="https://nodejs.org/en/">
+                <a class="conhecimentos-list__link" target="_blank" href="https://nodejs.org/en/about/">
                     <i class="devicon-nodejs-plain conhecimentos-list__icon"></i>
                 </a>
                 <a class="conhecimentos-list__link" target="_blank" href="https://expressjs.com">
@@ -110,34 +102,34 @@
         </section>
 
         <section class="section-curriculum text-center" id="section-curriculum">
-            <h1 class="heading-secondary margin-bottom-small">Curriculum</h1>
+            <h2 class="heading-secondary margin-bottom-small">Curriculum</h2>
             <a href="#" class="btn btn--green">Download Pdf
                 <i class="ion-ios-download-outline"></i>
             </a>
         </section>
 
         <section class="section-portfolio" id="section-portfolio">
-            <h1 class="heading-secondary margin-bottom-small">Portfólio</h1>
+            <h2 class="heading-secondary margin-bottom-small">Portfólio</h2>
             <div class="list wrap">
-                <a class="list__item" href="#">
+                <a class="list__item" href="#combustiveis">
                     <img src="/img/portfolio/maps.jpg" alt="projecto combustiveis" class="list__item__img">
                     <div class="list__item__overlay">
                         <i class="ion-eye list__item__overlay__icon"></i>
                     </div>
                 </a>
-                <a class="list__item" href="#">
-                    <img src="/img/portfolio/projects.jpg" alt="projecto filegest" class="list__item__img">
+                <a class="list__item" href="#gestor">
+                    <img src="/img/portfolio/projects.jpg" alt="projecto gestor" class="list__item__img">
                     <div class="list__item__overlay">
                         <i class="ion-eye list__item__overlay__icon"></i>
                     </div>
                 </a>
-                <a class="list__item" href="#">
+                <a class="list__item" href="#moveis">
                     <img src="/img/portfolio/moveis.jpg" alt="projecto moveis" class="list__item__img">
                     <div class="list__item__overlay">
                         <i class="ion-eye list__item__overlay__icon"></i>
                     </div>
                 </a>
-                <a class="list__item" href="#">
+                <a class="list__item" href="#filegest">
                     <img src="/img/portfolio/filegest.jpg" alt="projecto filegest" class="list__item__img">
                     <div class="list__item__overlay">
                         <i class="ion-eye list__item__overlay__icon"></i>
@@ -177,8 +169,7 @@
         </section>
     </main>
     <footer class="footer text-center" id="footer">
-        <svg class="page-separator margin-bottom-small" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102"
-            preserveAspectRatio="none">
+        <svg class="page-separator margin-bottom-small" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 102" preserveAspectRatio="none">
             <path d="M0 0 L50 100 L100 0 Z" />
         </svg>
         <p class="paragraph footer__paragraph">
@@ -209,6 +200,113 @@
             </li>
         </ul>
     </footer>
+
+    <div class="portfolio-projectos">
+        <div class="popup" id="combustiveis">
+            <div class="popup__content wrap-medium">
+                <h2 class="heading-secondary">Preço Combustivéis</h2>
+                <div class="popup__img">
+                    <img src="/img/portfolio/mapas-2.png" alt="projecto combustiveis">
+                </div>
+                <p class="paragrah text-bold">Desenvolvido no âmbito de formação em contexto de trabalho realizado na Empresa Livetech, o website desenvolvido
+                    teve como objetivos:</p>
+                <ul class="check-list margin-bottom-small">
+                    <li class="check-list__item">Mostrar ao utilizador todos os postos de combustível existentes em Portugal.</li>
+                    <li class="check-list__item">Identificar os postos no mapa.</li>
+                    <li class="check-list__item">Dar a opção ao utilizador de procurar por tipo de combustível e devolver os postos mais próximos com
+                        o tipo de combustível escolhido.</li>
+                    <li class="check-list__item">Classificar os postos com a respective marca.</li>
+                    <li class="check-list__item">Os tipos de combustíveis existentes em cada posto.</li>
+                    <li class="check-list__item">Criação de gráfico com variação do valor de cada combustível por posto nos últimos seis meses.</li>
+                </ul>
+
+                <div class="text-center">
+                    <p class="paragraph text-bold">Desenvolvido com:</p>
+                    <p class="paragraph margin-bottom-small">Html, Css, Bootstrap, Php, Javascript, Mysql, Google APIs.</p>
+                    <a href="#section-portfolio" class="btn btn--green">Fechar
+                        <i class="ion-close-round"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="gestor">
+            <div class="popup__content wrap-medium">
+                <h2 class="heading-secondary">GESTOR DE PROJECTOS</h2>
+                <div class="popup__img">
+                    <img src="/img/portfolio/projectos-2.png" alt="projecto combustiveis">
+                </div>
+                <p class="paragrah text-bold">Desenvolvido no âmbito de formação em contexto de trabalho realizado na Empresa Livetech, o Gestor de Projetos
+                    permite:
+                </p>
+                <ul class="check-list margin-bottom-small">
+                    <li class="check-list__item">Criar utilizadores com vários níveis de acesso e com cargo/cargos definidos.</li>
+                    <li class="check-list__item">Criar projetos e definir fases por cada projeto.</li>
+                    <li class="check-list__item">Atribuir utilizadores as fases do projeto.</li>
+                    <li class="check-list__item">Os utilizadores podem registar as horas que trabalharam em cada fase descrevendo o trabalho que foi realizado.</li>
+                    <li class="check-list__item">O administrador/comercial gerem os clientes.</li>
+                    <li class="check-list__item">O administrador/comercial gerem os orçamentos.</li>
+                    <li class="check-list__item">O administrador/comercial gerem as fases de adjudicação do projeto.</li>
+                    <li class="check-list__item">O administrador/comercial podem criar um novo projeto ao marcar como aprovado um orçamento.</li>
+                    <li class="check-list__item">O utilizadores podem comunicar entre si na plataforma.</li>
+                </ul>
+
+                <div class="text-center">
+                    <p class="paragraph text-bold">Desenvolvido com:</p>
+                    <p class="paragraph margin-bottom-small">Html, Css, Bootstrap, Php, Javascript, Mysql, PhpMailer</p>
+                    <a href="#section-portfolio" class="btn btn--green">Fechar
+                        <i class="ion-close-round"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="moveis">
+            <div class="popup__content wrap-medium">
+                <h2 class="heading-secondary">MÓVEIS AZEVEDO</h2>
+                <div class="popup__img">
+                    <img src="/img/portfolio/moveis-2.png" alt="projecto combustiveis">
+                </div>
+                <p class="paragrah text-bold">Desenvolvido no âmbito de formação em contexto de trabalho realizado na Empresa Livetech, criação do layout
+                    do website com base em ficheiros PSD.</p>
+                <div class="text-center">
+                    <p class="paragraph text-bold">Desenvolvido com:</p>
+                    <p class="paragraph margin-bottom-small">Html, Css, Javascript, Jquery</p>
+                    <a href="#section-portfolio" class="btn btn--green">Fechar
+                        <i class="ion-close-round"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="filegest">
+            <div class="popup__content wrap-medium">
+                <h2 class="heading-secondary">FILEGEST</h2>
+                <div class="popup__img">
+                    <img src="/img/portfolio/filegest-2.png" alt="projecto combustiveis">
+                </div>
+                <p class="paragrah text-bold">Desenvolvido no âmbito de formação em contexto de trabalho realizado na Empresa Livetech, o Filegest permite:</p>
+
+                <ul class="check-list margin-bottom-small">
+                    <li class="check-list__item">Criar utilizadores com vários níveis de acesso.</li>
+                    <li class="check-list__item">Criar Pastas e subpastas.</li>
+                    <li class="check-list__item">Upload de ficheiros e versões por ficheiro.</li>
+                    <li class="check-list__item">Mover ficheiros de pastas e suas versões.</li>
+                    <li class="check-list__item">Sistema de Mensagens do administrador para utilizadores.</li>
+                </ul>
+
+                <div class="text-center">
+                    <p class="paragraph text-bold">Desenvolvido com:</p>
+                    <p class="paragraph margin-bottom-small">Html, Css, Bootstrap, Php, Javascript, Mysql, PhpMailer</p>
+                    <a href="#section-portfolio" class="btn btn--green">Fechar
+                        <i class="ion-close-round"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="/js/main.js"></script>
 </body>

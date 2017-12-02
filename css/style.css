@@ -44,7 +44,7 @@ body {
 
 .paragrah {
   font-size: 1.6rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 2rem; }
 
 .wrap {
   max-width: 1140px;
@@ -128,7 +128,8 @@ body {
     flex: 0 0 31%;
     margin: 1rem 1%;
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    max-height: 23rem; }
     .list__item__img {
       width: 100%;
       transition: all .3s; }
@@ -185,7 +186,8 @@ body {
     max-width: 70rem;
     margin: 3rem auto; }
     .popup__img img {
-      width: 100%; }
+      width: 100%;
+      max-height: 50rem; }
   .popup:target {
     opacity: 1;
     visibility: visible; }

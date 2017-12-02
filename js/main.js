@@ -1,10 +1,10 @@
-$("document").ready(function(){
+$("document").ready(function () {
 
     /////////////////////////////////////
     //CLOSE NAVIGATION
-    $(".navigation__link").on("click",function(){
-        $("#nav-toggle").click(); 
+    $(".navigation__link").on("click", function () {
+        $("#nav-toggle").click();
     });
 
-    
+
 });

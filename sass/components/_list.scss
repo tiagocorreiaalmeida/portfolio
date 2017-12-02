@@ -39,6 +39,15 @@
         &:hover &__img{
             transform: scale(1.05);
         }
-        
+
+        @include respond(tab-land){
+            flex: 0 0 48%; 
+            margin:  .8rem 1%;
+        }
+
+        @include respond(phone){
+            flex: 0 0 100%;  
+            margin: .5rem 0;
+        } 
     }
 }

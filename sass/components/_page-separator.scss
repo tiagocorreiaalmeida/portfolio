@@ -7,4 +7,7 @@
         stroke: ($color-light);
         stroke-width: 3;  
     }
+    @include respond(tab-land){
+        height: 8rem;
+    }
 }

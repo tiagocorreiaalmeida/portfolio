@@ -1,6 +1,7 @@
 .conhecimentos-list{
     display: flex;
     flex-wrap: wrap;
+
     &__link{
         color:inherit;
         flex: 0 0 18%;
@@ -8,6 +9,10 @@
         padding: 1rem;
         margin: 4rem 1%;
         text-align: center;
+
+        @include respond(tab-land){
+            margin:2rem 1%;
+        }
     }
 
     &__link:hover{
@@ -17,5 +22,9 @@
     &__icon{
         display: inline-block;
         font-size: 13rem;
+
+        @include respond(tab-land){
+            font-size: 12rem;
+        }
     }
 }

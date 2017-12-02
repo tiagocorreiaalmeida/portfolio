@@ -1,12 +1,23 @@
+section{
+    outline: none; 
+}
 .section-sobre{
     margin:5rem 0;
     &__image-container{
         width:20rem;
         margin: 0 auto 3rem auto;
 
+        @include respond(tab-port){
+            width:18rem;
+        }
+
+        @include respond(phone){
+            width:15rem; 
+        }
+
         &__img{
             width:100%;
-            border-radius: 50%;
+            border-radius: 50%; 
         }
     }
     background-color: $color-white;

@@ -10,4 +10,14 @@
     @include respond(tab-land){
         height: 8rem;
     }
+    @include respond(tab-port){
+        height: 7rem; 
+    }
+
+    @include respond(phone){
+        height: 5rem;  
+    }
+    @include respond(phone-small){
+        height: 4.5rem;  
+    }
 }

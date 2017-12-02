@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" contnet="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/devicon.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon-code.ico">
 
     <title>Tiago Correia - Web Developer</title>
 </head>
-
-<body>
+  
+<body class="loading">
+    <div class="page-loader">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div> 
+            <div class="sk-cube sk-cube4"></div> 
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
         <label for="nav-toggle" class="navigation__button">
@@ -25,19 +39,19 @@
         <div class="navigation__nav">
             <ul class="navigation__list">
                 <li class="navigation__item">
-                    <a href="#section-sobre" class="navigation__link">Sobre Mim</a>
+                    <a href="#section-sobre" class="navigation__link smooth">Sobre Mim</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#section-conhecimentos" class="navigation__link">Conhecimentos</a>
+                    <a href="#section-conhecimentos" class="navigation__link smooth">Conhecimentos</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#section-curriculum" class="navigation__link">Curriculum</a>
+                    <a href="#section-curriculum" class="navigation__link smooth">Curriculum</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#section-portfolio" class="navigation__link">Portfolio</a>
+                    <a href="#section-portfolio" class="navigation__link smooth">Portfolio</a>
                 </li>
                 <li class="navigation__item">
-                    <a href="#footer" class="navigation__link">Contactar</a>
+                    <a href="#footer" class="navigation__link smooth">Contactar</a>
                 </li>
             </ul>
         </div>
@@ -47,7 +61,7 @@
     <header class="header">
         <h1 class="heading-primary--top">Tiago Correia</h1>
         <h2 class="heading-primary--bottom margin-bottom-medium">Web Developer</h2>
-        <a href="#section-sobre" class="btn btn--white btn--round btn-down">
+        <a href="#section-sobre" class="btn btn--white btn--round btn-down smooth">
             <i class="fa fa-angle-double-down btn-down__icon" aria-hidden="true"></i>
         </a>
     </header>
@@ -63,8 +77,8 @@
                     web começou cedo e ao longo deste percurso estudei na Universidade Superior Aveiro Norte onde realizei
                     um CET em Técnico de gestão de programação de sistemas informáticos.</p>
 
-                <a href="/img/frontend.png" target="_blank" class="btn btn--green">Certificado Frontend</a>
-                <a href="/img/backend.png" target="_blank" class="btn btn--green">Certificado Backend</a>
+                <a href="/img/frontend.png" target="_blank" class="btn btn--green btn-break">Certificado Frontend</a>
+                <a href="/img/backend.png" target="_blank" class="btn btn--green btn-break">Certificado Backend</a>
             </div>
         </section>
 
@@ -107,7 +121,7 @@
         <section class="section-curriculum text-center" id="section-curriculum">
             <h2 class="heading-secondary margin-bottom-small">Curriculum</h2>
             <a href="#" class="btn btn--green">Download Pdf
-                <i class="ion-ios-download-outline"></i>
+                <i class="fa fa-download"></i>
             </a>
         </section>
 
@@ -179,25 +193,25 @@
             <i class="fa fa-code footer__icon"></i>
         </p>
         <p class="paragraph footer__paragraph">&copy; Tiago Correia - 2017</p>
-        <a href="#" class="footer__email">tiagoalmeida.correia@gmail.com</a>
+        <a href="mailto:tiagoalmeida.correia@gmail.com" class="footer__email">tiagoalmeida.correia@gmail.com</a>
         <ul class="footer__socialmedia">
             <li class="footer__socialmedia__item">
-                <a href="#" class="footer__socialmedia__link" target="_blank">
+                <a href="https://www.linkedin.com/in/tiago-correia-072417116" class="footer__socialmedia__link" target="_blank">
                     <i class="fa fa-linkedin footer__socialmedia__icon"></i>
                 </a>
             </li>
             <li class="footer__socialmedia__item">
-                <a href="#" class="footer__socialmedia__link" target="_blank">
+                <a href="https://github.com/tiagocorreiaalmeida" class="footer__socialmedia__link" target="_blank">
                     <i class="fa fa-github footer__socialmedia__icon"></i>
                 </a>
             </li>
             <li class="footer__socialmedia__item">
-                <a href="#" class="footer__socialmedia__link" target="_blank">
+                <a href="https://www.freecodecamp.org/tiagocorreiaalmeida" class="footer__socialmedia__link" target="_blank">
                     <i class="fa fa-free-code-camp footer__socialmedia__icon"></i>
                 </a>
             </li>
             <li class="footer__socialmedia__item">
-                <a href="#" class="footer__socialmedia__link" target="_blank">
+                <a href="https://codepen.io/tiagocorreia/" class="footer__socialmedia__link" target="_blank">
                     <i class="fa fa-codepen footer__socialmedia__icon"></i>
                 </a>
             </li>

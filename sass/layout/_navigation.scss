@@ -16,12 +16,17 @@
         background-color:$color-white; 
         box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1);
         cursor: pointer;
-
+        
         &:hover .navigation__icon::before{
             top: - 1rem;
         }
         &:hover .navigation__icon::after{ 
             top: 1rem;
+        }
+
+        @include respond(phone){
+            right:2rem;
+            top:2rem; 
         }
     }
 
@@ -60,8 +65,8 @@
         right:0;
         z-index: 2000;
         background: linear-gradient(to bottom, 
-        rgba($color-blue-dark-1,1), 
-        rgba($color-green-light-3,1));
+        rgba(#44a08d,1), 
+        rgba(#093637,1));
         transition: all .7s cubic-bezier(0.86, 0, 0.07, 1);
     }
 
@@ -111,7 +116,7 @@
 
     &__link::before{
         content: "";
-        position: absolute;
+        position: absolute; 
         background: $color-white;
         bottom: 0;
         left: 100%;

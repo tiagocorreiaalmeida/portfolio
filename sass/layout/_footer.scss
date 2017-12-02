@@ -1,18 +1,26 @@
 .footer{
     background-color: $color-green-dark-1;
     color: $color-white;
+    outline: none; 
 
     &__icon{
         font-size: 3rem;
         display: block;
         margin-bottom: 2rem;
         margin-top:1rem;
+        @include respond(phone){
+            font-size: 2.5rem; 
+         } 
     }
 
     &__paragraph{
         font-size: 1.7rem;
         text-transform: uppercase;
         font-weight: 700;
+
+        @include respond(phone){
+           font-size: $default-font-size; 
+        } 
     }
 
     &__email{
@@ -23,6 +31,9 @@
         font-weight: 700; 
         display: block;
         margin-top:1rem;
+        @include respond(phone){
+            font-size: $default-font-size; 
+        }  
     }
 
     &__socialmedia{
@@ -52,7 +63,7 @@
             color:$color-green-dark-1;
         }
     
-        &__icon{
+        &__icon{ 
             font-size: 2rem;  
         }
     }

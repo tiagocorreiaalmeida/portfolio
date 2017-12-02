@@ -13,6 +13,11 @@
         @include respond(tab-land){
             margin:2rem 1%;
         }
+
+        @include respond(phone-small){
+            flex: 0 0 19%; 
+            margin:1rem .5%; 
+        }
     }
 
     &__link:hover{
@@ -26,5 +31,17 @@
         @include respond(tab-land){
             font-size: 12rem;
         }
-    }
+ 
+        @include respond(tab-port){
+            font-size: 11rem; 
+        }
+
+        @include respond(phone){
+            font-size: 8rem; 
+        }
+
+        @include respond(phone-small){
+            font-size: 5rem;  
+        }
+    } 
 }

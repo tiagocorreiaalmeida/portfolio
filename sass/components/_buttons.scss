@@ -44,4 +44,11 @@
             color: $color-light;
         }
     }
+
+    &-break{ 
+        @include respond(phone-small){
+            width: 95%;
+            margin: 1rem auto; 
+        } 
+    }
 }
